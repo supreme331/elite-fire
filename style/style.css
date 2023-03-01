@@ -1218,12 +1218,52 @@ body {
   .refuel__background {
     right: -190px;
   }
+  .refuel__content {
+    margin-left: 30px;
+  }
+  .carousel {
+    width: 350px;
+    height: 226px;
+  }
+  .carousel__arrows {
+    top: 163px;
+  }
+  .questions__variant {
+    width: 350px;
+    height: 253px;
+  }
+  .calculator__preferences {
+    width: 350px;
+  }
+  .calculator input[type=range] {
+    width: 240px;
+    margin: 0 10px;
+  }
   .calculator__result {
     flex-wrap: wrap;
     justify-content: center;
   }
   .calculator__result > div {
     margin: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .automatic-fireplaces__title {
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .automatic-fireplaces__background {
+    opacity: 0.3;
+    width: 350px;
+    height: 264px;
+    top: 100px;
+    background: url("../img/kamin4.png") 0 0/100% auto no-repeat;
+  }
+  .refuel__subtitle {
+    margin-top: 100px;
+  }
+  .refuel__background {
+    right: -210px;
   }
 }
 
